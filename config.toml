@@ -1,46 +1,69 @@
-baseurl = "http://vjeantet.fr/"
-copyright = "All rights reserved - 2016"
+baseurl = "https://ruushwei.github.io/"
+copyright = "张宏伟"
 disqusshortname = "vjeantet"
 languagecode = "fr-FR"
 paginate = 5
 pluralizelisttitles = false
 theme = "casper"
-title = "Valère JEANTET"
+title = "宏伟的博客"
+
+
+
 [[menu.main]]
 identifier = "blog"
-name = "Blog"
+name = "主页"
 url = "/"
 weight = -120
+
 [[menu.main]]
-name = "Github repos"
-pre = "<h3>Follow me</h3>"
-url = "https://github.com/vjeantet"
-weight = 100
-[[menu.main]]
-name = "Twitter timeline"
-url = "https://twitter.com/vjeantet"
+name = "java"
+url = "/java"
 weight = 101
+
 [[menu.main]]
-name = "Flipboard magazines"
-url = "https://flipboard.com/@vjeantet"
+name = "linux"
+url = "/linux"
 weight = 102
+
 [[menu.main]]
-name = "Keybase (secure msg)"
-pre = "<h3>Contact me</h3>"
-url = "https://Keybase.io/vjeantet"
+name = "sql"
+url = "/sql"
 weight = 109
+
+[[menu.main]]
+name = "front-end"
+url = "/front-end"
+weight = 109
+
+[[menu.main]]
+name = "framework"
+url = "/framework"
+weight = 109
+
+[[menu.main]]
+name = "algorithm"
+url = "/algorithm"
+weight = 109
+
+
+[[menu.main]]
+name = "关于我"
+url = "/about"
+weight = 109
+
+
 [params]
-author = "Valère JEANTET"
-authorlocation = "Paris, France"
-authorwebsite = "http://vjeantet.fr"
-bio = "IT software and Security Engineer, Open source enthusiast."
+author = "张宏伟"
+authorlocation = "北京"
+authorwebsite = "blog.hongwei.online"
+bio = ""
 cover = "images/cover_polenord.jpg"
-description = "Whatever the mind of man can conceive and believe, it can achieve."
-githubName = "vjeantet"
+description = "Talk is cheap,show me the code."
+githubName = "ruushwei"
 googleAnalyticsUserID = "UA-79101-12"
 hideHUGOSupport = false
 logo = "images/logo.png"
-twitterName = "vjeantet"
+twitterName = ""
 [permalinks]
 post = "/:slug/"
 [sitemap]
