@@ -5,8 +5,8 @@ menu = ""
 title = "my post"
 slug = "post-title"
 tags = [
-  "tag1",
-  "tag2",
+  "java",
+  "linux",
 ]
 date = "2016-12-14T11:35:38+08:00"
 comments = true

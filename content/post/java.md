@@ -4,14 +4,14 @@ draft = false
 image = ""
 menu = "java"
 title = "java"
-comments = true
+comments = false
 author = ""
 slug = "post-title"
 tags = [
-  "tag1",
-  "tag2",
+  "java",
+  "linux",
 ]
-share = true
+share = false
 
 +++
 

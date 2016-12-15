@@ -5,7 +5,7 @@ languagecode = "fr-FR"
 paginate = 5
 pluralizelisttitles = false
 theme = "casper"
-title = "宏伟的博客"
+title = "Hongwei's Blog"
 
 
 
@@ -17,32 +17,32 @@ weight = -120
 
 [[menu.main]]
 name = "java"
-url = "/java"
+url = "/tags/java"
 weight = 101
 
 [[menu.main]]
 name = "linux"
-url = "/linux"
+url = "/tags/linux"
 weight = 102
 
 [[menu.main]]
 name = "sql"
-url = "/sql"
+url = "/tags/sql"
 weight = 109
 
 [[menu.main]]
 name = "front-end"
-url = "/front-end"
+url = "/tags/front-end"
 weight = 109
 
 [[menu.main]]
 name = "framework"
-url = "/framework"
+url = "/tags/framework"
 weight = 109
 
 [[menu.main]]
 name = "algorithm"
-url = "/algorithm"
+url = "/tags/algorithm"
 weight = 109
 
 
@@ -56,13 +56,13 @@ weight = 109
 author = "张宏伟"
 authorlocation = "北京"
 authorwebsite = "blog.hongwei.online"
-bio = ""
+bio = "沃德天辣么帅"
 cover = "images/cover_polenord.jpg"
 description = "Talk is cheap,show me the code."
 githubName = "ruushwei"
 googleAnalyticsUserID = "UA-79101-12"
 hideHUGOSupport = false
-logo = "images/logo.png"
+logo = "images/logo1.png"
 twitterName = ""
 [permalinks]
 post = "/:slug/"
