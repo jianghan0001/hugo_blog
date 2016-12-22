@@ -4,7 +4,14 @@
         <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>{{ .Summary }} <a class="read-more" href="{{.RelPermalink}}">&raquo;</a></p>
+        <p>
+
+        <input type="text" value="{{ .Summary }}"  style="width: 100%;
+        cursor: default;border-width: 0;border-style: none;white-space: nowrap;
+        text-overflow: ellipsis;"  readonly="">
+         <!-- <span style="overflow: hidden;text-overflow:ellipsis;white-space: nowrap;width: 100%; ">{{ .Summary }}</span>  -->
+
+        <a class="read-more" href="{{.RelPermalink}}">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         {{$author:= .Site.Params.author}}
