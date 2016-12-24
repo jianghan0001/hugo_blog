@@ -7,7 +7,7 @@ tags = [
   "framework"
 ,"java"
 ]
-
++++
 ## maven项目添加redis支持
 
 redis.properties

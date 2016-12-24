@@ -6,8 +6,7 @@ tags = [
   "framework"
 ,"java"
 ]
-
-
++++
 1. maven创建web项目
 
 	mvn archetype:generate -DgroupId=com.zhw -DartifactId=sblog -DarchetypeArtifactId=maven-archetype-webapp -DinteractivMode=false -DarchetypeCatalog=internal
