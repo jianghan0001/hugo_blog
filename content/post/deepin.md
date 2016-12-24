@@ -47,7 +47,7 @@ shadowsocks已经安装好在 ～/.local/下  有sslocal命令文件
 
 
 
-配置浏览器:
+### 配置浏览器:
 
 需要给chrome安装SwitchyOmega插件，但是没有代理之前是不能从谷歌商店安装这个插件的，  
 但是我们可以从Github上直接下载最新版 https://github.com/FelisCatus/SwitchyOmega/releases/ （这个是chrome的）   

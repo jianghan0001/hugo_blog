@@ -54,7 +54,7 @@ git对象连接图--四个对象
 blob(内容)  tree(文件目录及连接文件名) commit(指向一个tree，保存提交信息，作者) tag(标签，指向commit)
 
 
-###git 常用命令 --- 创建，拉取他人或远程仓库代码
+### git 常用命令 --- 创建，拉取他人或远程仓库代码
 
 两种方法生成和获取版本库，
 
@@ -85,7 +85,7 @@ git add 文件名  //添加文件
 
 
 
-###git reset
+### git reset
 
 --mixed： 暂存区恢复原样，工作目录修改不变。(add 了 想反悔)
 
@@ -123,7 +123,7 @@ git log      查看当前分支 指向的commit 及其之前的信息,一个链�
 git reflog  查看所有分支 所有信息 ， 即使是回退版本之前的信息
 .gitignore文件 忽略规则
 
-###常用的规则：
+### 常用的规则：
 
 target*
 
@@ -143,7 +143,7 @@ target*
 
 再进行提交，重新经过.gitignore过滤
 
-###git branch
+### git branch
 
 git branch 分支名               //创建分支
 
@@ -206,7 +206,7 @@ git diff --cached       //当前暂存区版本与上一个commit 版本的区�
 git diff HEAD           //工作区与上一次提交的区别
 
   *工作区整体与上个版本的区别
-###git tag
+### git tag
 
 git tag -a v1.0                  //为当前版本加标签
 
@@ -236,7 +236,7 @@ eg:origin/master
 修改后 git commit -m  提交新版本，继续开发或推送到远程仓库。
 
 
-###svn 迁移到 git
+### svn 迁移到 git
 
 svn 项目迁移到 github 等 git服务器 , 以下操作均在客户端进行
 
