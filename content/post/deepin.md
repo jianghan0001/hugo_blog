@@ -10,10 +10,18 @@ title="deepin安装常用软件"
 
 
 
-### 安装maven git
+#### 安装maven git
 
 * sudo apt-get install maven
 * sudo apt-get install git
+
+
+
+#### 安装mysql
+
+sudo apt-get install mysql-server mysql-client
+
+
 
 ### 安装redis：
 

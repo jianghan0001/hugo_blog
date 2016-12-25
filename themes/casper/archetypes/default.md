@@ -7,6 +7,8 @@ tags = ["java",
 "suanfa",
 "sql",
 "qianduan",
-"framework"
+"framework",
+"data_structure",
+"design_mode"
 ]
 +++

@@ -2,7 +2,7 @@ baseurl = "https://ruushwei.github.io/"
 copyright = "张宏伟"
 disqusshortname = "vjeantet"
 languagecode = "fr-FR"
-paginate = 5
+paginate = 15
 pluralizelisttitles = false
 theme = "casper"
 title = "Hongwei's Blog"
@@ -40,14 +40,27 @@ name = "框架"
 url = "/tags/framework"
 weight = 105
 
+
+
+
 [[menu.main]]
 name = "算法"
 url = "/tags/suanfa"
 weight = 106
 
+[[menu.main]]
+name = "数据结构"
+url = "/tags/data_structure"
+weight = 107
+[[menu.main]]
+name = "设计模式"
+url = "/tags/design_mode"
+weight = 108
+
+
 
 [[menu.main]]
-name = "关于我"
+name = "我"
 url = "/about"
 weight = 111
 
