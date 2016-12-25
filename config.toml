@@ -41,8 +41,6 @@ url = "/tags/framework"
 weight = 105
 
 
-
-
 [[menu.main]]
 name = "算法"
 url = "/tags/suanfa"
@@ -57,12 +55,49 @@ name = "设计模式"
 url = "/tags/design_mode"
 weight = 108
 
+[[menu.main]]
+name = "springmvc"
+url = "/tags/springmvc"
+weight = 109
 
+
+
+
+[[menu.main]]
+name = "mybatis"
+url = "/tags/mybatis"
+weight = 110
+
+[[menu.main]]
+name = "hibernate"
+url = "/tags/hibernate"
+weight = 112
+
+[[menu.main]]
+name = "struts"
+url = "/tags/struts"
+weight = 113
+
+[[menu.main]]
+name = "spring"
+url = "/tags/spring"
+weight = 114
+
+[[menu.main]]
+name = "server"
+url = "/tags/spring"
+weight = 115
+
+
+[[menu.main]]
+name = "随笔"
+url = "/tags/suibi"
+weight = 119
 
 [[menu.main]]
 name = "我"
 url = "/about"
-weight = 111
+weight = 121
 
 
 [params]

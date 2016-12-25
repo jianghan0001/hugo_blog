@@ -9,6 +9,7 @@ tags = ["java",
 "qianduan",
 "framework",
 "data_structure",
-"design_mode"
+"design_mode",
+"suibi"
 ]
 +++
