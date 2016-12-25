@@ -9,7 +9,7 @@ tags = [
 +++
 
 
-### 简介 
+## 简介 
 
 Spring的模型-视图-控制器（MVC）框架是围绕一个DispatcherServlet来设计的，这个Servlet会把请求分发给各个处理器，
 

@@ -1,3 +1,12 @@
++++
+date = "2016-12-20T10:44:55+08:00"
+draft = false
+title = "springmvc注解"
+tags = [
+  "springmvc"
+]
++++
+
 
 
 ### 控制器(Controller)的实现
