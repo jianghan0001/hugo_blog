@@ -961,7 +961,7 @@ body.nav-opened .menu-button .word {
 }
 
 body:not(.post-template) .post-title {
-    font-size: 2.6rem;
+    font-size: 2rem;
 }
 
 .post-title a {
