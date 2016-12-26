@@ -9,6 +9,7 @@ title = "宏伟的博客"
 
 
 
+
 [[menu.main]]
 identifier = "blog"
 name = "主页"
@@ -32,7 +33,7 @@ weight = 103
 
 [[menu.main]]
 name = "前端"
-url = "/tags/qianduan"
+url = "/tags/前端"
 weight = 104
 
 [[menu.main]]
@@ -43,24 +44,22 @@ weight = 105
 
 [[menu.main]]
 name = "算法"
-url = "/tags/suanfa"
+url = "/tags/算法"
 weight = 106
 
 [[menu.main]]
 name = "数据结构"
-url = "/tags/data_structure"
+url = "/tags/数据结构"
 weight = 107
 [[menu.main]]
 name = "设计模式"
-url = "/tags/design_mode"
+url = "/tags/设计模式"
 weight = 108
 
 [[menu.main]]
 name = "springmvc"
 url = "/tags/springmvc"
 weight = 109
-
-
 
 
 [[menu.main]]
@@ -85,13 +84,13 @@ weight = 114
 
 [[menu.main]]
 name = "server"
-url = "/tags/spring"
+url = "/tags/server"
 weight = 115
 
 
 [[menu.main]]
 name = "随笔"
-url = "/tags/suibi"
+url = "/tags/随笔"
 weight = 119
 
 [[menu.main]]
@@ -106,7 +105,7 @@ authorlocation = "北京"
 authorwebsite = "blog.hongwei.online"
 bio = "沃德天辣么帅"
 cover = "images/bg.jpg"
-description = "让编程成为乐趣，让学习变得纯粹。"
+description = ""
 githubName = "ruushwei"
 googleAnalyticsUserID = "UA-79101-12"
 hideHUGOSupport = false
