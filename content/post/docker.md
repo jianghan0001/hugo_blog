@@ -6,7 +6,7 @@ date = "2017-01-06T10:54:24+02:00"
 
 +++
 
-### 安装下载镜像
+##### 安装下载镜像
 
 https://docs.docker.com/engine/installation/linux/centos/
 
@@ -98,7 +98,7 @@ Locate and delete any user-created configuration files.
 
 
 
-### 下载镜像启动容器
+##### 下载镜像启动容器
 
 sudo docker pull index.alauda.cn/alauda/ubuntu
 
@@ -126,7 +126,7 @@ sudo docker run -i -t -v /data/software/:/data/software/ ae983d5e88ce /bin/bash
 
 
 
-### 安装JDK和Tomcat等
+##### 安装JDK和Tomcat等
 
 安装相关的JDK等程序，这里全部安装到/data/目录：
 
@@ -156,7 +156,7 @@ export CATALINA_BASE=/data/tomcat
 source /etc/profile
 
 
-### 编写启动脚本
+##### 编写启动脚本
 
 启动tomcat时必须通过TOMCATHOME/bin/catalina.sh实现，不能使用TOMCAT_HOME/bin/startup.sh启动，否则脚本执行后容器会马上退出。
 
@@ -174,7 +174,7 @@ vi /data/start.sh
 
 chmod u+x /data/start.sh
 
-## 构建镜像
+##### 构建镜像
 
 使用Docker构建镜像的两种方法：
 
@@ -193,11 +193,11 @@ sudo docker commit 39b2cf60a4c1 bingyue/docdemo
 现在查看本地的docker镜像，  
 可以看到本地仓库已经有刚刚创建的docker镜像。
 
-## docker inspect可以查看新创建的镜像的详细信息：
+##### docker inspect可以查看新创建的镜像的详细信息：
 
 sudo docker inspect bingyue/docdemo  
 
-## 运行新创建的镜像
+##### 运行新创建的镜像
 
 docker run -d -p 18080:8080 --name docdemo bingyue/docdemo /data/start.sh
 
@@ -212,7 +212,7 @@ docker ps
 成功启动，访问宿主机的18080端口是否可以访问到tomcat服务器，成功则表示端口映射成功.
 
 
-## 添加Docker用户组，避免sudo输入
+##### 添加Docker用户组，避免sudo输入
 
 默认安装完 docker 后，每次执行 docker 都需要运行 sudo 命令，影响效率。如果不跟 sudo，直接执行 docker images 命令会有如下问题：
 Get http:///var/run/docker.sock/v1.18/images/json: dial unix /var/run/docker.sock: permission denied. Are you trying to connect to a TLS-enabled daemon without TLS?
@@ -230,25 +230,25 @@ docker version
 #### 若还未生效，则系统重启，则生效
 sudo reboot
 
-## Docker常用命令
+##### Docker常用命令
 
-#### 下载一个ubuntu镜像 
-sudo docker pull ubuntu
-#### 使用ubuntu运行一个交互性的shell
-sudo docker run -i -t ubuntu /bin/bash
-#### docker ps命令
-sudo docker ps #列出当前所有正在运行的container
-sudo docker ps -l #列出最近一次启动的，且正在运行的container
-sudo docker ps -a #列出所有的container
-#### port命令
-docker run -p 80:8080 <image> <cmd> #映射容器的8080端口到宿主机的80端口
-#### 删除容器命令
-sudo docker rm `sudo docker ps -a -q`#删除所有容器
-sudo docker rm $CONTAINER_ID#删除容器id为CONTAINER_ID的容器
-#### 其他命令快速参考：
-sudo docker images #查看本地镜像
-sudo docker attach $CONTAINER_ID #启动一个已存在的docker实例
-sudo docker stop $CONTAINER_ID #停止docker实例
-sudo docker logs $CONTAINER_ID #查看docker实例运行日志，确保正常运行
-sudo docker inspect $CONTAINER_ID #查看container的实例属性，比如ip等等
+#### 下载一个ubuntu镜像   
+sudo docker pull ubuntu  
+#### 使用ubuntu运行一个交互性的shell  
+sudo docker run -i -t ubuntu /bin/bash  
+#### docker ps命令  
+sudo docker ps #列出当前所有正在运行的container  
+sudo docker ps -l #列出最近一次启动的，且正在运行的container  
+sudo docker ps -a #列出所有的container  
+#### port命令  
+docker run -p 80:8080 <image> <cmd> #映射容器的8080端口到宿主机的80端口  
+#### 删除容器命令  
+sudo docker rm `sudo docker ps -a -q`#删除所有容器  
+sudo docker rm $CONTAINER_ID#删除容器id为CONTAINER_ID的容器  
+#### 其他命令快速参考：  
+sudo docker images #查看本地镜像   
+sudo docker attach $CONTAINER_ID #启动一个已存在的docker实例  
+sudo docker stop $CONTAINER_ID #停止docker实例  
+sudo docker logs $CONTAINER_ID #查看docker实例运行日志，确保正常运行  
+sudo docker inspect $CONTAINER_ID #查看container的实例属性，比如ip等等  
 
