@@ -87,6 +87,11 @@ name = "server"
 url = "/tags/server"
 weight = 115
 
+[[menu.main]]
+name = "docker"
+url = "/tags/docker"
+weight = 116
+
 
 [[menu.main]]
 name = "随笔"
