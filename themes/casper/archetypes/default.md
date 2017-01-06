@@ -4,12 +4,19 @@ draft = false
 title = "Post title"
 tags = ["java",
 "linux",
-"suanfa",
+"算法",
 "sql",
-"qianduan",
-"framework",
-"data_structure",
-"design_mode",
-"suibi"
+"前端",
+"框架",
+"数据结构",
+"设计模式",
+"随笔",
+"springmvc",
+"mybatis",
+"hibernate",
+"struts",
+"spring",
+"server",
+"面试题"
 ]
 +++

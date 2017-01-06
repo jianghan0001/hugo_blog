@@ -94,6 +94,12 @@ weight = 116
 
 
 [[menu.main]]
+name = "面试题"
+url = "/tags/面试题"
+weight = 115
+
+
+[[menu.main]]
 name = "随笔"
 url = "/tags/随笔"
 weight = 119
@@ -108,7 +114,7 @@ weight = 121
 author = "张宏伟"
 authorlocation = "北京"
 authorwebsite = "blog.hongwei.online"
-bio = "沃德天辣么帅"
+bio = "心态少年"
 cover = "images/bg.jpg"
 description = ""
 githubName = "ruushwei"
@@ -119,6 +125,6 @@ twitterName = ""
 [permalinks]
 post = "/:slug/"
 [sitemap]
-ChangeFreq = ""
+ChangeFreq = "changefreq"
 Filename = "sitemap.xml"
-Priority = "-1"
+Priority = "1"
