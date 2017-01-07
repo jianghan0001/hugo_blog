@@ -57,7 +57,7 @@ docker run <相关参数> <镜像 ID> <初始命令>
 
 yum search jdk
 
-yum install java-1.6.0-openjdk.x86_64
+yum install java-1.8.0-openjdk.x86_64
 
 java -version
 
@@ -69,7 +69,7 @@ java -version
 
 
 
-####　安装tomcat
+####安装tomcat
 
 
 yum install tomcat
