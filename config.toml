@@ -31,30 +31,7 @@ name = "sql"
 url = "/tags/sql"
 weight = 103
 
-[[menu.main]]
-name = "前端"
-url = "/tags/前端"
-weight = 104
 
-[[menu.main]]
-name = "框架"
-url = "/tags/framework"
-weight = 105
-
-
-[[menu.main]]
-name = "算法"
-url = "/tags/算法"
-weight = 106
-
-[[menu.main]]
-name = "数据结构"
-url = "/tags/数据结构"
-weight = 107
-[[menu.main]]
-name = "设计模式"
-url = "/tags/设计模式"
-weight = 108
 
 [[menu.main]]
 name = "springmvc"
@@ -94,20 +71,39 @@ weight = 116
 
 
 [[menu.main]]
+name = "前端"
+url = "/tags/前端"
+weight = 120
+
+[[menu.main]]
+name = "算法"
+url = "/tags/算法"
+weight = 121
+
+[[menu.main]]
+name = "数据结构"
+url = "/tags/数据结构"
+weight = 122
+[[menu.main]]
+name = "设计模式"
+url = "/tags/设计模式"
+weight = 123
+
+[[menu.main]]
 name = "面试题"
 url = "/tags/面试题"
-weight = 115
+weight = 124
 
 
 [[menu.main]]
 name = "随笔"
 url = "/tags/随笔"
-weight = 119
+weight = 125
 
 [[menu.main]]
 name = "我"
 url = "/about"
-weight = 121
+weight = 126
 
 
 [params]
