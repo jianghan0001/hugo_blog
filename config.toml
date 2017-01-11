@@ -22,29 +22,31 @@ url = "/tags/sql"
 weight = 101
 
 [[menu.main]]
+name = "web"
+url = "/tags/web"
+weight = 102
+
+[[menu.main]]
 name = "java"
 url = "/tags/java"
-weight = 102
+weight = 103
 
 [[menu.main]]
 name = "linux"
 url = "/tags/linux"
-weight = 103
+weight = 104
 
 [[menu.main]]
 name = "struts"
 url = "/tags/struts"
-weight = 104
+weight = 105
 
 [[menu.main]]
 name = "spring"
 url = "/tags/spring"
-weight = 105
-
-[[menu.main]]
-name = "server"
-url = "/tags/server"
 weight = 106
+
+
 
 [[menu.main]]
 name = "docker"
