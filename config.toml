@@ -17,21 +17,44 @@ url = "/"
 weight = -120
 
 [[menu.main]]
+name = "sql"
+url = "/tags/sql"
+weight = 101
+
+[[menu.main]]
 name = "java"
 url = "/tags/java"
-weight = 101
+weight = 102
 
 [[menu.main]]
 name = "linux"
 url = "/tags/linux"
-weight = 102
-
-[[menu.main]]
-name = "sql"
-url = "/tags/sql"
 weight = 103
 
+[[menu.main]]
+name = "struts"
+url = "/tags/struts"
+weight = 104
 
+[[menu.main]]
+name = "spring"
+url = "/tags/spring"
+weight = 105
+
+[[menu.main]]
+name = "server"
+url = "/tags/server"
+weight = 106
+
+[[menu.main]]
+name = "docker"
+url = "/tags/docker"
+weight = 107
+
+[[menu.main]]
+name = "mybatis"
+url = "/tags/mybatis"
+weight = 108
 
 [[menu.main]]
 name = "springmvc"
@@ -40,34 +63,13 @@ weight = 109
 
 
 [[menu.main]]
-name = "mybatis"
-url = "/tags/mybatis"
-weight = 110
-
-[[menu.main]]
 name = "hibernate"
 url = "/tags/hibernate"
-weight = 112
+weight = 110
 
-[[menu.main]]
-name = "struts"
-url = "/tags/struts"
-weight = 113
 
-[[menu.main]]
-name = "spring"
-url = "/tags/spring"
-weight = 114
 
-[[menu.main]]
-name = "server"
-url = "/tags/server"
-weight = 115
 
-[[menu.main]]
-name = "docker"
-url = "/tags/docker"
-weight = 116
 
 
 [[menu.main]]
@@ -80,25 +82,30 @@ name = "算法"
 url = "/tags/算法"
 weight = 121
 
-[[menu.main]]
-name = "数据结构"
-url = "/tags/数据结构"
-weight = 122
-[[menu.main]]
-name = "设计模式"
-url = "/tags/设计模式"
-weight = 123
-
-[[menu.main]]
-name = "面试题"
-url = "/tags/面试题"
-weight = 124
-
 
 [[menu.main]]
 name = "随笔"
 url = "/tags/随笔"
+weight = 122
+
+[[menu.main]]
+name = "面试题"
+url = "/tags/面试题"
+weight = 123
+
+
+[[menu.main]]
+name = "数据结构"
+url = "/tags/数据结构"
+weight = 124
+
+[[menu.main]]
+name = "设计模式"
+url = "/tags/设计模式"
 weight = 125
+
+
+
 
 [[menu.main]]
 name = "我"
