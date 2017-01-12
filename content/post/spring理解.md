@@ -167,3 +167,27 @@ Spring 提供方便的API把具体技术相关的异常（比如由JDBC，Hibern
 
 
 
+SpringMVC和Spring的加载：
+（1）对于Spring和SpringMVC而言，到底谁先加载是关键。两者都是各自维护自己的一个容器。但是SpringMVC的容器要利用一个负责分发请求的DispatcherServlet。而Spring的IOC容器是利用Listern对每个构建的Bean（包括Servlet）都进行生命周期的监听。所以，Spring要快于SpringMVC被加载。
+（2）既然这样，首先让Spring加载，利用SpringAOP，把符合PointCut的对象都做动态代理；接着再启动SpringMVC，加载的同时，把动态代理好的@Service对象都@Autowired到相关的对象中。
+
+
+Spring的优点：
+
+轻量级：相较于EJB容器，Spring采用的IoC容器非常的轻量级，基础版本的Spring框架大约只有2MB。Spring可以让开发者们仅仅使用POJO(Plain Old Java Object，相对于EJB)就能够开发出企业级的应用。这样做的好处是，你不需要使用臃肿庞大的 EJB容器(应用服务器)，你只需要轻量的servlet容器(如Tomcat)。尤其在一些开发当中，很稀缺内存和CPU资源时，采用Spring比EJB无论是开发还是部署应用都更节约资源。  
+
+控制反转(IOC)：Spring使用控制反转技术实现了松耦合。依赖被注入到对象，而不是创建或寻找依赖对象。  
+
+面向切面编程(AOP)： Spring支持面向切面编程，同时把应用的业务逻辑与系统的服务分离开来。  
+
+MVC框架：Spring MVC是一个非常好的MVC框架，可以替换其他web框架诸如Struts。  
+
+集成性：Spring非常容易和其他的流行框架一起集成开发，这些框架包括：ORM框架，logging框架，JEE, Quartz，以及Struts等表现层框架。  
+
+事务管理：Spring强大的事务管理功能，能够处理本地事务(一个数据库)或是全局事务(多个数据，采用JTA)。  
+
+模块分离：Spring框架是由模块构成的。虽然已经有太多的包和类了，但它们都按照模块分好类了，你只需要考虑你会用到的模块，而不用理其他的模块。  
+
+异常处理：由于Java的JDBC，Hibernate等API中有很多方法抛出的是checked exception，而很多开发者并不能很好的处理异常。Spring提供了统一的API将这些checked exception的异常转换成Spring的unchecked exception。
+
+单元测试：Spring写出来的代码非常容易做单元测试，可以采用依赖注射(Dependency Injection)将测试的数据注射到程序中。
