@@ -6,6 +6,12 @@ date = "2017-01-11T12:54:24+02:00"
 
 +++
 
+
+
+springmvc深入解析：
+[http://blog.csdn.net/scholar_man/article/details/48051165](http://blog.csdn.net/scholar_man/article/details/48051165)
+
+
 spring+springmvc+mybatis:
 
 [http://www.importnew.com/22880.html](http://www.importnew.com/20215.html)
@@ -29,3 +35,5 @@ ssm+MySQL 整合：
 SpringMVC和Spring的加载：
 （1）对于Spring和SpringMVC而言，到底谁先加载是关键。两者都是各自维护自己的一个容器。但是SpringMVC的容器要利用一个负责分发请求的DispatcherServlet。而Spring的IOC容器是利用Listern对每个构建的Bean（包括Servlet）都进行生命周期的监听。所以，Spring要快于SpringMVC被加载。
 （2）既然这样，首先让Spring加载，利用SpringAOP，把符合PointCut的对象都做动态代理；接着再启动SpringMVC，加载的同时，把动态代理好的@Service对象都@Autowired到相关的对象中。
+
+

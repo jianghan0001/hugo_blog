@@ -8,6 +8,12 @@ date = "2017-01-11T12:54:24+02:00"
 
 
 
+Spring MVC属于SpringFrameWork的后续产品，已经融合在Spring Web Flow里面
+
+spring 框架提供了构建 Web 应用程序的全功能 MVC 模块。使用 Spring 可插入的 MVC 架构，可以选择是使用内置的 Spring Web 框架还是 Struts 这样的 Web 框架。通过策略接口，Spring 框架是高度可配置的，而且包含多种视图技术，例如 JavaServer Pages（JSP）技术、Velocity、Tiles、iText 和 POI。Spring MVC 框架并不知道使用的视图，所以不会强迫您只使用 JSP 技术
+
+
+
 Spring MVC框架是一个MVC框架，通过实现Model-View-Controller模式来很好地将数据、业务与展现进行分离。
 
 Spring MVC的设计是围绕DispatcherServlet展开的，DispatcherServlet负责将请求派发到特定的handler。通过可配置的hander mappings、view resolution、locale以及theme resolution来处理请求并且转到对应的视图。Spring MVC请求处理的整体流程如图：
@@ -109,3 +115,24 @@ SpringMVC中的拦截器相当于J2EE中的过滤器，是非常重要和相当�
 也许有些朋友对这个执行结果不是很理解，我其实是懂的，但确实一下子也说不清楚。
 
 如果不是很理解的朋友，可以去看一下Java设计模式里面的责任链模式，拦截器的这种调用方法实际上是一种链式的调用法，TestInterceptor2调用TestInterceptor1，TestInterceptor1方法走了才会回到TestInterceptor2的方法里面
+
+
+
+
+##### POST中文乱码解决方案
+
+spring Web MVC框架提供了org.springframework.web.filter.CharacterEncodingFilter用于解决POST方式造成的中文乱码问题，具体配置如下：
+
+
+    <filter>  
+    <filter-name>CharacterEncodingFilter</filter-name>  
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>  
+    <init-param>  
+    <param-name>encoding</param-name>  
+    <param-value>utf-8</param-value>  
+    </init-param>  
+    </filter>  
+    <filter-mapping>  
+    <filter-name>CharacterEncodingFilter</filter-name>  
+    <url-pattern>/*</url-pattern>  
+    </filter-mapping>
