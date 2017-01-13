@@ -1,7 +1,7 @@
 
 +++
 tags = ["mybatis"]
-title = "mybatis简介"
+title = "mybatis学习笔记"
 draft = false
 date = "2017-01-13T12:54:24+02:00"
 
