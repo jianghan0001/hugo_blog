@@ -32,42 +32,50 @@ url = "/tags/java"
 weight = 103
 
 [[menu.main]]
+name = "other"
+url = "/tags/other"
+weight = 104
+
+
+[[menu.main]]
 name = "linux"
 url = "/tags/linux"
-weight = 104
+weight = 105
+
+
 
 [[menu.main]]
 name = "struts"
 url = "/tags/struts"
-weight = 105
+weight = 106
 
 [[menu.main]]
 name = "spring"
 url = "/tags/spring"
-weight = 106
+weight = 107
 
 
 
 [[menu.main]]
 name = "docker"
 url = "/tags/docker"
-weight = 107
+weight = 108
 
 [[menu.main]]
 name = "mybatis"
 url = "/tags/mybatis"
-weight = 108
+weight = 109
 
 [[menu.main]]
 name = "springmvc"
 url = "/tags/springmvc"
-weight = 109
+weight = 110
 
 
 [[menu.main]]
 name = "hibernate"
 url = "/tags/hibernate"
-weight = 110
+weight = 111
 
 
 
