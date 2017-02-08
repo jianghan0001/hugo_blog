@@ -104,3 +104,30 @@ Spring为什么要结合使用HandlerMapping以及HandlerAdapter来处理Handler
 
 5、处理器（页面控制器）的配置，从而进行功能处理
 
+
+
+
+##### 如何解决POST请求中文乱码问题，GET的又如何处理呢？
+
+在web.xml中加入：
+
+ 
+
+	<filter>
+	    <filter-name>CharacterEncodingFilter</filter-name>
+	    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+	    <init-param>
+	        <param-name>encoding</param-name>
+	        <param-value>utf-8</param-value>
+	    </init-param>
+	</filter>
+	<filter-mapping>
+	    <filter-name>CharacterEncodingFilter</filter-name>
+	    <url-pattern>/*</url-pattern>
+	</filter-mapping>
+以上可以解决post请求乱码问题。对于get请求中文参数出现乱码解决方法有两个：
+修改tomcat配置文件添加编码与工程编码一致，如下：
+
+	 
+	
+	<ConnectorURIEncoding="utf-8" connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>

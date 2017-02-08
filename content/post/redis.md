@@ -1,6 +1,6 @@
 
 +++
-tags = ["server,java,linux,other"]
+tags = ["server","java","linux","other"]
 title = "redis"
 draft = false
 date = "2017-02-07T22:54:24+02:00"
