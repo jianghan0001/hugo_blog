@@ -110,14 +110,19 @@ weight = 123
 
 
 [[menu.main]]
+name = "数据库"
+url = "/tags/数据库"
+weight = 124
+
+[[menu.main]]
 name = "数据结构"
 url = "/tags/数据结构"
-weight = 124
+weight = 125
 
 [[menu.main]]
 name = "设计模式"
 url = "/tags/设计模式"
-weight = 125
+weight = 126
 
 
 
@@ -125,7 +130,7 @@ weight = 125
 [[menu.main]]
 name = "我"
 url = "/about"
-weight = 126
+weight = 127
 
 
 [params]

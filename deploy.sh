@@ -1,3 +1,4 @@
+cd /e/blog/
 hugo
 echo ----更新public文件夹完毕----
 git add .
