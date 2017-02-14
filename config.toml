@@ -104,29 +104,34 @@ url = "/tags/随笔"
 weight = 122
 
 [[menu.main]]
+name = "随笔"
+url = "/tags/架构"
+weight = 123
+
+[[menu.main]]
 name = "面试题"
 url = "/tags/面试题"
-weight = 123
+weight = 124
 
 
 [[menu.main]]
 name = "数据库"
 url = "/tags/数据库"
-weight = 124
+weight = 125
 
 [[menu.main]]
 name = "数据结构"
 url = "/tags/数据结构"
-weight = 125
+weight = 126
 
 [[menu.main]]
 name = "设计模式"
 url = "/tags/设计模式"
-weight = 126
+weight = 127
 
 
 
-
+USjKaHw-u0%l
 [[menu.main]]
 name = "我"
 url = "/about"
